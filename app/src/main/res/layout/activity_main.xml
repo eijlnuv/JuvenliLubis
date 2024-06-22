@@ -1,0 +1,61 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="79dp"
+        android:layout_gravity="bottom"
+        android:background="@color/dark_blue"
+        app:itemIconTint="@color/navigation"
+        app:itemTextColor="@color/navigation"
+        app:itemIconSize="30dp"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemActiveIndicatorStyle="@color/dark_blue"
+        app:menu="@menu/bottom_navigation">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="@color/light_blue"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="1.5dp"
+                android:background="@color/dark_blue"
+                android:orientation="horizontal" />
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/green"
+        android:src="@drawable/sharp_add_24"
+        app:layout_constraintBottom_toBottomOf="@+id/frame_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/white"
+        android:importantForAccessibility="no" />
+</androidx.constraintlayout.widget.ConstraintLayout>

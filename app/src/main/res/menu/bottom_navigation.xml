@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/transaksi"
+        android:icon="@drawable/transaksi"
+        android:title="@string/transaksi" />
+    <item
+        android:id="@+id/statistik"
+        android:icon="@drawable/statistik"
+        android:title="@string/statistik" />
+    <item
+        android:id="@+id/akun"
+        android:icon="@drawable/akun"
+        android:title="@string/akun" />
+    <item
+        android:id="@+id/lainnya"
+        android:icon="@drawable/lainnya"
+        android:title="@string/lainnya" />
+</menu>

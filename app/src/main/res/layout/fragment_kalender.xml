@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kalender">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_blue"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0"
+            android:background="@color/blue"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@color/light_blue"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Minggu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Minggu"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/Senin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Senin"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/Selasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Selasa"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/Rabu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Rabu"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/Kamis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Kamis"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/Jumat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Jumat"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/Sabtu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sabtu"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!-- Kolom dalam baris -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!-- Kolom dalam baris -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!-- Kolom dalam baris -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!-- Kolom dalam baris -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!-- Kolom dalam baris -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
